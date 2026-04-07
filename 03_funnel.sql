@@ -1,5 +1,3 @@
-
-
 SELECT discovery_channel,
     SUM(CASE WHEN event = 'view' THEN 1 ELSE 0 END) AS views,
     SUM(CASE WHEN event ='addtocart' THEN 1 ELSE 0 END) AS add_to_carts,
