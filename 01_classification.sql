@@ -1,5 +1,3 @@
-
-
 CREATE VIEW classified AS
 WITH session_stats AS(
 SELECT visitorid,
